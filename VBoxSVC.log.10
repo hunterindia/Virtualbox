@@ -1,0 +1,82 @@
+VirtualBox COM Server 5.1.26 r117224 win.amd64 (Jul 27 2017 12:32:13) release log
+00:00:00.051036 main     Log opened 2017-12-22T06:31:50.437647100Z
+00:00:00.051036 main     Build Type: release
+00:00:00.051036 main     OS Product: Windows 8.1
+00:00:00.051036 main     OS Release: 6.3.9600
+00:00:00.051036 main     OS Service Pack: 
+00:00:00.158113 main     DMI Product Name: Inspiron 5537
+00:00:00.183130 main     DMI Product Version: A07
+00:00:00.183130 main     Host RAM: 8072MB (7.8GB) total, 6123MB (5.9GB) available
+00:00:00.183130 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.183130 main     Process ID: 2124
+00:00:00.183130 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.190135          VirtualBox: object creation starts
+00:00:00.191136          Home directory: 'C:\Users\Ulhas\.VirtualBox'
+00:00:00.191136          Installed Drivers:
+00:00:00.197139            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 5.1.26.17224)
+00:00:00.199142            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 5.1.26.17224)
+00:00:00.200143            C:\WINDOWS\system32\DRIVERS\VBoxDrv.sys (Version: 5.1.26.17224)
+00:00:00.202143            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 5.1.26.17224)
+00:00:00.217155          Loading settings file "C:\Users\Ulhas\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.349612          Getting USB descriptor failed with error 31
+00:00:00.351619          USB: Unknown USB device detected (idVendor: 0x0c45, idProduct: 0x64ad)
+00:00:00.351619          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x07dc)
+00:00:00.389645          HostDnsMonitor: old information
+00:00:00.389645            no server entries
+00:00:00.389645            no domain set
+00:00:00.389645            no search string entries
+00:00:00.389645          HostDnsMonitor: new information
+00:00:00.389645            server 1: 115.112.18.130
+00:00:00.389645            server 2: 115.112.18.22
+00:00:00.389645            server 3: 121.242.190.210
+00:00:00.389645            server 4: 121.242.190.181
+00:00:00.389645            no domain set
+00:00:00.389645            no search string entries
+00:00:00.389645          HostDnsMonitorProxy::notify
+00:00:00.523764          VD: VDInit finished
+00:00:00.526766          Loading settings file "C:\Users\Ulhas\VirtualBox VMs\Ansible_Control_Machine\Ansible_Control_Machine.vbox" with version "1.16-windows"
+00:00:00.528740          Loading settings file "C:\Users\Ulhas\VirtualBox VMs\Ansible_node_1\Ansible_node_1.vbox" with version "1.16-windows"
+00:00:00.530740          Loading settings file "C:\Users\Ulhas\VirtualBox VMs\Ansible_Node_2\Ansible_Node_2.vbox" with version "1.16-windows"
+00:00:00.532742          VirtualBox: object created
+00:00:24.532655          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={edba9d10-45d8-b440-1712-46ac0c9bc4c5} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:24.695920          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={b2547866-a0a1-4391-8b86-6952d82efaa0} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=0
+00:00:36.982510          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={edba9d10-45d8-b440-1712-46ac0c9bc4c5} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:37.072451          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={b2547866-a0a1-4391-8b86-6952d82efaa0} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=0
+00:00:47.908295          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={edba9d10-45d8-b440-1712-46ac0c9bc4c5} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:48.006059          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={b2547866-a0a1-4391-8b86-6952d82efaa0} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=0
+00:39:21.509360 MainPower Host suspending: Paused 3 VMs
+01:18:42.298461 MainPower Host resumed: Resumed 3 VMs
+01:18:42.802916 USBPROXY Getting USB descriptor failed with error 31
+01:59:28.659687 MainPower Host suspending: Paused 3 VMs
+02:20:46.806796 MainPower Host resumed: Resumed 3 VMs
+02:20:47.372839 USBPROXY Getting USB descriptor failed with error 31
+02:20:48.202837 dns-monitor HostDnsMonitor: old information
+02:20:48.202837 dns-monitor   server 1: 115.112.18.130
+02:20:48.202837 dns-monitor   server 2: 115.112.18.22
+02:20:48.202837 dns-monitor   server 3: 121.242.190.210
+02:20:48.202837 dns-monitor   server 4: 121.242.190.181
+02:20:48.202837 dns-monitor   no domain set
+02:20:48.202837 dns-monitor   no search string entries
+02:20:48.202837 dns-monitor HostDnsMonitor: new information
+02:20:48.202837 dns-monitor   no server entries
+02:20:48.202837 dns-monitor   no domain set
+02:20:48.202837 dns-monitor   no search string entries
+02:20:48.202837 dns-monitor HostDnsMonitorProxy::notify
+02:20:51.442682 dns-monitor HostDnsMonitor: old information
+02:20:51.442682 dns-monitor   no server entries
+02:20:51.442682 dns-monitor   no domain set
+02:20:51.442682 dns-monitor   no search string entries
+02:20:51.442682 dns-monitor HostDnsMonitor: new information
+02:20:51.442682 dns-monitor   server 1: 115.112.18.130
+02:20:51.442682 dns-monitor   server 2: 115.112.18.22
+02:20:51.442682 dns-monitor   server 3: 121.242.190.210
+02:20:51.442682 dns-monitor   server 4: 121.242.190.181
+02:20:51.442682 dns-monitor   no domain set
+02:20:51.442682 dns-monitor   no search string entries
+02:20:51.442682 dns-monitor HostDnsMonitorProxy::notify
+03:28:12.192287 main     VirtualBox: object deletion starts
+03:28:12.204743 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium 'C:\Users\Ulhas\VirtualBox VMs\Ansible_Control_Machine\Ansible_Control_Machine.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+03:28:12.225686 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium 'C:\Users\Ulhas\VirtualBox VMs\Ansible_node_1\Ansible_node_1.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+03:28:12.226696 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium 'C:\Users\Ulhas\VirtualBox VMs\Ansible_Node_2\Ansible_Node_2.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+03:28:12.346279 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={0169423f-46b4-cde9-91af-1e9d5b6cd945} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+03:28:12.361346 main     VirtualBox: object deleted
